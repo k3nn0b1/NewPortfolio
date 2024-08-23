@@ -1,0 +1,15 @@
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#typewriter {
+  font-size: 3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #794FCF ;
+  animation: blink 1.6s steps(1) infinite;
+  width: 0;
+  color: #794FCF;
+}
