@@ -21,6 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
   type();
 });
 
-
+document.addEventListener('DOMContentLoaded', function() {
+  const carouselList = document.querySelector('#carouselList');
+  const cards = Array.from(document.querySelectorAll('.cards'));
+  
+  cards.forEach(card => {
+      const clone = card.cloneNode(true);
+      carouselList.appendChild(clone);
+  });
+});
 
 

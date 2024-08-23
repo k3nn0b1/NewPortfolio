@@ -4,77 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonathan Costa</title>
-    <link rel="icon" type="image/x-icon" href="./assets/images/main/favicon.ico">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-    <link rel="stylesheet" href="./assets/styles/extEffects.css">
-    <link rel="preconnect" href="https://fonts.googleapis.cFom">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/main/favicon.ico"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link rel="stylesheet" href="./assets/styles/extEffects.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <img src="./assets/images/main/purpleLogo.png" alt="" id="logo">
-        <nav>
-          <a href="#"><span>//01. </span>Home</a>
-          <a href="#"><span>//02. </span>Skills</a>
-          <a href="#"><span>//03. </span>Experiências</a>
-          <a href="#"><span>//04. </span>Projetos</a>
-        </nav>
+      <img src="./assets/images/main/purpleLogo.png" alt="" id="logo" />
+      <nav>
+        <a href="#main"><span>//01. </span>Home</a>
+        <a href="#skills"><span>//02. </span>Skills</a>
+        <a href="#"><span>//03. </span>Experiências</a>
+        <a href="#"><span>//04. </span>Projetos</a>
+      </nav>
     </header>
-    <main>
-      <section>  
-        <p id="hello">Olá, meu nome é </p>
+    <main id="main">
+      <section>
+        <p id="hello">Olá, meu nome é</p>
         <h1>Jonathan Costa.</h1>
         <p id="typewriter"></p>
-        <p id="aboutMe">Sou um desenvolvedor frontend apaixonado por criar interfaces intuitivas e centradas na experiência do usuário. Me dedico a aprender e aplicar novas tecnologias que elevem a qualidade dos projetos. Meu objetivo é transformar ideias em experiências digitais envolventes e funcionais.</p>
+        <p id="aboutMe">
+          Sou um desenvolvedor frontend apaixonado por criar interfaces
+          intuitivas e centradas na experiência do usuário. Me dedico a aprender
+          e aplicar novas tecnologias que elevem a qualidade dos projetos. Meu
+          objetivo é transformar ideias em experiências digitais envolventes e
+          funcionais.
+        </p>
       </section>
-      <img src="./assets/images/main/hero.png" alt="Foto do DEV" id="hero">
+      <img src="./assets/images/main/hero.png" alt="Foto do DEV" id="hero" />
     </main>
-    
+
     <section id="skills">
       <section class="textMainSection">
-      <h2>Skills</h2>
-      <p>Aqui estão algumas tecnologias que uso no dia a dia:</p>
+        <h2>Skills</h2>
+        <p>Aqui estão algumas tecnologias que uso no dia a dia:</p>
       </section>
-      <section id="cardSection" class="carousel">
-        <div class="cards">
-          <p>HTML</p>
-          <img src="./assets/images/skills/html.png" alt="HTML" class="cardIcon">
-        </div>
-        <div class="cards">
-          <p>CSS</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/CSS.png" alt="HTML" class="cardIcon">
-        </div>
-        <div class="cards">
-          <p>JAVASCRIPT</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/javascript.png" alt="HTML" class="cardIcon">
-        </div>
-        <div class="cards">
-          <p>BOOTSTRAP</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/bootstrap.png" alt="HTML" class="cardIcon">
-        </div>    
-        <div class="cards">
-          <p>GIT</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/git.png" alt="HTML" class="cardIcon">
-        </div>    
-        <div class="cards">
-          <p>FIGMA</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/figma.png" alt="HTML" class="cardIcon">
-        </div> 
-        <div class="cards">
-          <p>REACT</p>
-          <div id="mid"></div>
-          <img src="./assets/images/skills/react.png" alt="HTML" class="cardIcon">
-        </div>  
-           
+      <section id="carouselContainer">
+        <ul id="carouselList" class="carousel">
+          <li class="cards">
+            <p>HTML</p>
+            <img
+              src="./assets/images/skills/html.png"
+              alt="HTML"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>CSS</p>
+            <img
+              src="./assets/images/skills/CSS.png"
+              alt="CSS"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>JAVASCRIPT</p>
+            <img
+              src="./assets/images/skills/javascript.png"
+              alt="JavaScript"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>BOOTSTRAP</p>
+            <img
+              src="./assets/images/skills/bootstrap.png"
+              alt="Bootstrap"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>GIT</p>
+            <img
+              src="./assets/images/skills/git.png"
+              alt="Git"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>FIGMA</p>
+            <img
+              src="./assets/images/skills/figma.png"
+              alt="Figma"
+              class="cardIcon"
+            />
+          </li>
+          <li class="cards">
+            <p>REACT</p>
+            <img
+              src="./assets/images/skills/react.png"
+              alt="React"
+              class="cardIcon"
+            />
+          </li>
+        </ul>
       </section>
-    <section/>
+    </section>
     <script src="./assets/scripts/script.js"></script>
   </body>
 </html>
