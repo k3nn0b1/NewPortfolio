@@ -52,6 +52,8 @@ header nav span{
   color: #5D17EB;
 }
 
+/*----------------------------------*/
+
 main{
   display: flex;
   justify-content: space-evenly;
@@ -71,7 +73,7 @@ main section{
   font-weight: 500;
 }
 
-h1{
+h1, h2{
   color: #BDA6EC;
   font-size:80px  ;
 }
@@ -86,7 +88,7 @@ h1{
   width: 400px;
 }
 
-//--------------------------------------
+/*-----------------------------------*/
 
 #skills{
   display: flex;
@@ -101,7 +103,7 @@ h1{
 }
 
 #cardSection{
-  padding: 50px; //Mudar isso quando alinhar tudo
+  padding: 50px; 
 }
 
 .cards{
@@ -112,19 +114,24 @@ h1{
   justify-content: center;
   align-items: center;
   background-color: #BDA6EC;
-  width: 15vw;
-  height: 18vw;
+  width: 14vw;
+  height: 14vw;
   gap: 5%;
   border-radius: 25px;
+  padding: 5%;
 }
-
-#mid{
-  height: 3px;  
-  width: 58%;
-  background-color: #0C0518;
-}
-
 
 .cardIcon{
   width: 10vw;
+}
+
+.textMainSection{
+  margin-left: 8.5vw;
+  font-size: 20px;
+}
+
+#cardSection{
+  display: flex;
+  gap: 4vw;
+  margin-left: 12vw;
 }
