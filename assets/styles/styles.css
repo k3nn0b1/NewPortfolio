@@ -95,7 +95,7 @@ h1, h2{
 
 /*-----------------------------------*/
 
-#skills{
+.session{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -103,7 +103,7 @@ h1, h2{
   color: #BDA6EC;
 }
 
-#skills p{
+.session p{
   color: #794FCF;
 }
 
@@ -116,6 +116,8 @@ h1, h2{
   overflow: hidden;
   margin: 0 auto;
 }
+
+
 
 #carouselList {
   display: flex;
@@ -153,15 +155,21 @@ h1, h2{
 }
 
 .cards:hover{
-  width: 15vw;
-  height: 15vw;
-  background-color: #af8ff0;
+
+  background-color: #693dc0;
  
 }
 
 .cardIcon {
   width: 10vw;
 }
+
+
+.cards p{
+  color: #280864;
+  text-align: center;
+}
+
 
 .textMainSection{
   margin-left: 8.5vw;
@@ -173,3 +181,32 @@ h1, h2{
   gap: 4vw;
   margin-left: 12vw;
 }
+
+/*---------------------------------*/
+
+
+
+#experiences .cardIcon{
+  width: 8vw;
+}
+
+#experiences .cards{
+
+  height: 16vw;
+
+}
+
+#experiences .cards p{
+width: 60%;
+}
+
+.cards hr{
+  width: 80%;
+  border-color: #280864;
+  border-radius: 25px;
+}
+
+#containerXP{
+  display: flex;
+  justify-content: center;
+  }
