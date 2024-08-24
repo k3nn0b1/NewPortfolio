@@ -13,6 +13,7 @@ html{
 body{
   background-color: #0C0518;
   font-family: Poppins;
+  cursor: default;
 }
 
 #logo{
@@ -193,11 +194,12 @@ h1, h2{
 #experiences .cards{
 
   height: 16vw;
+  
 
 }
 
 #experiences .cards p{
-width: 60%;
+width: 80%;
 }
 
 .cards hr{
@@ -209,4 +211,17 @@ width: 60%;
 #containerXP{
   display: flex;
   justify-content: center;
+  
   }
+
+#listXP{
+  display: flex;
+  gap: 4vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub{
+  font-size: small;
+  font-weight: 600;
+}
